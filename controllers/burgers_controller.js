@@ -45,15 +45,23 @@ router.post("/api/burger", (req, res) => {
 
 
 router.put("/api/burger/:id", (req, res) => {
-    var burgerId=req.params.id;
 
-    burger.updateOne(burgerId,result=>{
-        if(result.changedRows===0){
-            return res.status(400).end();
+    var burgerId=req.params.id;
+  
+
+    burger.updateOne(burgerId, function(result) {
+      
+       //console.log('RESULT--->',result)
+       //console.log('result.changedRows--->', result.changedRows)
+    
+     if(result.changedRows === 0){
+         return res.status(400).end();
+        
         }
         else{
-            res.status(200).end();
-        }
+           return res.status(200).end();
+           
+        } 
 
     })
 })

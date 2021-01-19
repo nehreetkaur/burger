@@ -20,6 +20,7 @@ var burger={
     });
   },
 
+ 
   updateOne:function (burgerId,cb){
     orm.updateOne("burgers","devoured",burgerId,function(res){
       cb(res);
