@@ -45,17 +45,18 @@ router.post("/api/burger", (req, res) => {
 
 
 router.put("/api/burger/:id", (req, res) => {
-    var burgerId = req.params.id
-    console.log(burgerId);
+    var burgerId=req.params.id;
 
-    // means or creates id=id;
-    burger.updateOne(burgerId, result => {
-        if (result.changedRows === 0) {              // if no rows were changed,then id must not exist.
-            return res.status(404).end();
-        } else {
+    burger.updateOne(burgerId,result=>{
+        if(result.changedRows===0){
+            return res.status(400).end();
+        }
+        else{
             res.status(200).end();
         }
+
     })
 })
+ 
 
 module.exports = router;
