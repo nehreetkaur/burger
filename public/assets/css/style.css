@@ -1,0 +1,26 @@
+.flex-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-content:center;
+}
+
+h2{
+  text-align:center;
+}
+
+
+body{
+  background-color:darkgoldenrod;
+}
+
+
+/*button{
+  padding:20px;
+  margin:20px;
+}*/
+
+
+form{
+  text-align:center;
+}
