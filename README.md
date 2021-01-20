@@ -21,6 +21,8 @@ and created the folder and file structure in **MVC** which stands for
 
 [ HEROKU-LINK](#HEROKU-LINK) 
 
+[UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO](#UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO)
+
 
 
 
@@ -44,7 +46,7 @@ They can see the **added** burger name under **DEVOURE BURGER** section. User ca
 
 
 
-# STRUCTURE OF MVC
+
 
 ## TEXT-EDITOR
 **Vs-code**
@@ -73,3 +75,6 @@ HTML via HANDLEBARS
 
 # HEROKU-LINK
 [HEROKU-LINK]()
+
+# UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO
+[Project-link-in-portfolio](https://nehreetkaur.github.io/github1.io/)
