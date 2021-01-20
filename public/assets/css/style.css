@@ -1,8 +1,12 @@
 .flex-container{
   display:flex;
-  align-items:center;
-  justify-content:center;
+  
   align-content:center;
+  justify-content:center;
+  align-items:center;
+  justify-content: space-around
+
+  
 }
 
 h2{
@@ -15,12 +19,56 @@ body{
 }
 
 
-/*button{
-  padding:20px;
-  margin:20px;
-}*/
+button{
+  
+  padding:5px;
+  margin:10px;
+  
+  align-self: center;
+  
+}
 
 
 form{
   text-align:center;
+}
+
+#to-be-eaten button{
+  display:flex;
+     /*margin-left: 10px;*/
+     border-radius: 40px;
+     justify-content:space-evenly;
+     font-weight: bolder;
+     background-color: lightgray;
+}
+
+#to-be-eaten li{
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+list-style: none;
+}
+
+#eatenaway{
+  list-style: none;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-2 h2{
+  font-style:italic ;
+  font-weight: bolder;
+  font-size: x-large
+}
+
+.box-2 button{
+  border-radius: 20%;
+  padding:15px;
+  border:3px solid linen;
+  background-color: lightslategrey;
+}
+
+img{
+
+  border:3px solid lavender;
 }

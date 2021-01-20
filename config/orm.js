@@ -24,15 +24,17 @@ const orm = {
 
     },
 
-    insertOne: function(table,column,value,cb) {
+    insertOne: function(tableName,columnNames,columnValues,cb) {
 
-       // console.log('insertOne ORM')
-       var queryString="INSERT INTO ??(??) VALUES (?)";
-       connection.query(queryString,[table,column,value],function (err,res){
-         if(err)throw err;
-         cb(res);
+      // console.log('insertOne ORM')
+      var queryString = `INSERT INTO ${tableName} (${columnNames.toString()}) VALUES (?, ?)`;
+                      
+      console.log(columnValues);
+      connection.query(queryString,columnValues,function (err,res){
+        if(err)throw err;
+        cb(res);
 
-       })
+      })
 
     },
 

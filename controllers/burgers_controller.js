@@ -32,7 +32,7 @@ router.get("/", (req, res) => {
 })
 
 router.post("/api/burger", (req, res) => {
-    burger.insertOne(["burger_name", "devoured"], [req.body.burger_name, req.body.devoured], function (result) {
+    burger.insertOne(["burger_name", "devoured"], [req.body.burger_name, false], function (result) {
 
         res.json({ id: result.insertId })
 
