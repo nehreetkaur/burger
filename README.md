@@ -66,7 +66,7 @@ HTML via HANDLEBARS
 
 
 # SCREENSHOT
-![BURGER-APP-SCREENSHOT](public/images/2.png)
+![BURGER-APP-SCREENSHOT](public/images/3.png)
 
 # GIT_HUB-REPOSITORY
 [GIT-HUB](https://github.com/nehreetkaur/burger)
