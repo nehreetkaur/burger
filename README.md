@@ -74,7 +74,7 @@ HTML via HANDLEBARS
 [GIT-HUB](https://github.com/nehreetkaur/burger)
 
 # HEROKU-LINK
-[HEROKU-LINK]()
+[HEROKU-LINK]( https://burger-nehreet.herokuapp.com/)
 
 # UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO
 [Project-link-in-portfolio](https://nehreetkaur.github.io/github1.io/)
