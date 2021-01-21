@@ -21,7 +21,7 @@ and created the folder and file structure in **MVC** which stands for
 
 [ HEROKU-LINK](#HEROKU-LINK) 
 
-[UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO](#UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO)
+
 
 
 
@@ -76,5 +76,3 @@ HTML via HANDLEBARS
 # HEROKU-LINK
 [HEROKU-LINK]( https://burger-nehreet.herokuapp.com/)
 
-# UPDATED-PROJECT-LINK-IN-MY-PORTFOLIO
-[Project-link-in-portfolio](https://nehreetkaur.github.io/github1.io/)
